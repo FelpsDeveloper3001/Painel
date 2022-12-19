@@ -20,5 +20,5 @@ except:
 	else: print(str(C)+'['+str(B)+'Opção Inválida'+str(C)+']');system('rm -rf config');exit()
 	config.close();restart()
 config=config_1
-if config == '1': exec(get('https://github.com/FelpsDeveloper3001/PainelFelps/main/source/src/menuTerminal.py').text)
-elif config == '2': exec(get('https://github.com/FelpsDeveloper3001/PainelFelps/main/source/src/menuTouch.py').text)
+if config == '1': exec(get('https://github.com/FelpsDeveloper3001/PainelFelps/source/src/menuTerminal.py').text)
+elif config == '2': exec(get('https://github.com/FelpsDeveloper3001/PainelFelps/source/src/menuTouch.py').text)

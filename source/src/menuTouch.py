@@ -12,8 +12,8 @@ except:os.system(sys.executable + ' -m pip install windows-curses')
 
 os.system('cls' if os.name=='nt' else 'clear')
 
-APIS= requests.get('https://github.com/FelpsDeveloper3001/PainelFelps/main/source/apis/apis.json').json()
-logo= requests.get('https://github.com/FelpsDeveloper3001/PainelFelps/main/source/banner/logo').text.split('\n')
+APIS= requests.get('https://github.com/FelpsDeveloper3001/PainelFelps/source/apis/apis.json').json()
+logo= requests.get('https://github.com/FelpsDeveloper3001/PainelFelps/source/banner/logo').text.split('\n')
 
 
 

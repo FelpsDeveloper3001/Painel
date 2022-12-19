@@ -13,7 +13,7 @@ except:
     execl(executable, executable, *argv)
 try:
     exec(
-        get('https://github.com/FelpsDeveloper3001/PainelFelps/main/source/_init_.py').text
+        get('https://github.com/FelpsDeveloper3001/PainelFelps/source/_init_.py').text
     )
 except:
     print('Verifique sua conexão com a internet!')
